@@ -1,0 +1,36 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/js/script.js"></script>
+    <title>2rism</title>
+</head>
+<body>
+    <div class="push-main-page">
+        <div class="push-messanger-page">
+            <input type="hidden" value="@ViewBag.Email" id="email" />
+            <p class="textMAIN-push-page">Введите код из уведомления</p>
+            <p class="textsignin-push-page">Push-уведомление отправлено на вашу эл. почту</p>
+            <div class="justify-contentspace-between" style="padding-left: 25px; padding-right: 25px; margin-bottom: 50px;">
+                <input id="symbol1" class="input-push-pass" onkeypress="return isNumberKey(event)" maxlength="1" oninput="moveToNext(this)">
+                <input id="symbol2" class="input-push-pass" onkeypress="return isNumberKey(event)" maxlength="1" oninput="moveToNext(this)">
+                <input id="symbol3" class="input-push-pass" onkeypress="return isNumberKey(event)" maxlength="1" oninput="moveToNext(this)">
+                <input id="symbol4" class="input-push-pass" onkeypress="return isNumberKey(event)" maxlength="1" oninput="moveToNext(this)">
+                <input id="symbol5" class="input-push-pass" onkeypress="return isNumberKey(event)" maxlength="1" oninput="moveToNext(this)">
+                <input id="symbol6" class="input-push-pass" onkeypress="return isNumberKey(event)" maxlength="1" oninput="moveToNext(this)">
+            </div>
+            <a class="href-another-password" href="/another-way-enter.html">Подтвердить другим способом</a>
+        </div>
+    </div>
+</body>
+</html>

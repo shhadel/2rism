@@ -1,0 +1,6 @@
+@_2rism_HostAddress = http://localhost:5053
+
+GET {{_2rism_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

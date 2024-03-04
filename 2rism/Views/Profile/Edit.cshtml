@@ -1,0 +1,46 @@
+﻿@{
+}
+
+<form>
+    <div style="display: flex; justify-content: space-between">
+        <div style="width: 40%">
+            <p class="text-main-page">Редактирование профиля</p>
+            <img src="/avatar.jpg" alt="Фотография" id="photoinedit" class="avatar" style="width: 350px; height: 350px" />
+            <input id="photo" type="file" style="display: block"/>
+
+            <div class="input-text-reg" style="display: flex; margin-top: 10px;">
+                <img src="/resources/icons-name-black.png" style="padding: 15px">
+                <input type="text" class="input-reg" id="surname" value="" placeholder="Фамилия">
+            </div>
+
+            <div class="input-text-reg" style="display: flex; margin-top: 10px;">
+                <img src="/resources/icons-name-black.png" style="padding: 15px">
+                <input type="text" class="input-reg" id="name" value="" placeholder="Имя">
+            </div>
+
+            <div class="input-text-reg" style="display: flex; margin-top: 10px;">
+                <img src="/resources/icons-name-black.png" style="padding: 15px">
+                <input type="text" class="input-reg" id="patronymic" value="" placeholder="Отчество">
+            </div>
+            <div>
+                <input type="button" class="butt-sigh-in" onclick="UpdateUser(this.form.surname.value, this.form.name.value, this.form.patronymic.value, this.form.photo.files[0])" style="text-align: center;" value="Редактировать" />
+            </div>
+        </div>
+        <div style="width: 40%">
+            <p class="text-main-page">Редактировать пароль</p>
+            <div class="input-text-reg" style="display: flex; margin-top: 10px;">
+                <img src="/resources/Icon-password(black).png" style="padding: 15px">
+                <input class="input-reg" id="oldpassword" type="password" />
+            </div>
+            <div class="input-text-reg" style="display: flex; margin-top: 10px;">
+                <img src="/resources/Icon-password(black).png" style="padding: 15px">
+                <input class="input-reg" id="password" type="password" />
+            </div>
+            <div class="input-text-reg" style="display: flex; margin-top: 10px;">
+                <img src="/resources/Icon-password(black).png" style="padding: 15px">
+                <input class="input-reg" id="reppassword" type="password" />
+            </div>
+            <input type="button" class="butt-sigh-in" onclick="UpdatePassword(this.form.oldpassword.value, this.form.password.value, this.form.reppassword.value)" style="text-align: center;" value="Обновить пароль" />
+        </div>
+    </div>
+</form>

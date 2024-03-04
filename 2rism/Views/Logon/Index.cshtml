@@ -1,0 +1,44 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/js/script.js"></script>
+    <title>2rism</title>
+</head>
+<body>
+    <div class="justify-contentspace-between">
+        <div class="leftsignin">
+            <img src="/resources/back-sign.jpg" style="height: 100%; width: 100%;">
+        </div>
+        <div class="rightsignin">
+            <div>
+                <form class="maintextsign">
+                    <p class="textMAIN">Авторизация</p>
+                    <p class="textsignin">Авторизируйся с помощью эл. почты</p>
+                    <div class="input-text" style="display: flex;">
+                        <img src="/resources/icon-email.png" style="padding: 15px">
+                        <input id="useremail" class="inputtt" placeholder="email@mail.ru">
+                    </div>
+                    <input type="button" class="butt-sigh-in" onclick="SendEmail(this.form.useremail.value)" value="Авторизоваться" />
+                </form>
+                <div class="maintextsign">
+                    <a href="/Logon/Registration"><button class="butt-createacc">Создать аккаунт</button></a>
+                    <p class="text-under-createacc">После регистрации вы получите доступ ко всем возможглстям 2rism</p>
+                    <a class="href-more-info">Узнать больше</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

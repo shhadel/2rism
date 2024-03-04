@@ -1,0 +1,984 @@
+﻿.headermainimg {
+    background: url(/resources/ShowcaseCover.png)no-repeat center center/cover;
+    min-height: 800px;
+    border-radius: 0 0 50px 50px;
+    padding-top: 50px;
+}
+
+body {
+    margin: 0 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.headerMain {
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.mainmenu {
+    font-size: 14px;
+    text-align: center;
+    opacity: 0.7;
+    width: 50%;
+}
+
+.helloavatar {
+    display: flex;
+    align-items: center;
+}
+
+.hellobro {
+    text-align: right;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+
+.maintext {
+    font-size: 45px;
+    color: white;
+    font-weight: 800;
+    margin-top: 160px;
+}
+
+.showcase-button {
+    font-size: 18px;
+    margin-top: 28px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    background: #7b61ff;
+    padding: 22px;
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.search-button-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7b61ff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.email-button-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7b61ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.showcase-content {
+    text-align: center;
+}
+
+.search-main {
+    width: 60%;
+    height: 80px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 210px;
+    justify-content: space-between;
+    display: flex;
+    padding: 0 16px;
+}
+
+.searchresurs {
+    display: flex;
+    align-items: center;
+}
+
+.resourse {
+    text-align: left;
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.main-page {
+    width: 73%;
+    margin: 0 auto;
+}
+
+.popular-place {
+    width: 100%;
+}
+
+.about-us-all {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.text-main-page {
+    font-size: 30px;
+    color: black;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.one-popular-place {
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.one-popular-place-img {
+    width: 200px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.one-popular-hotel-img {
+    width: 320px !important;
+    height: 380px !important;
+    border-radius: 10px;
+}
+
+.popular-place-text {
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 0 !important;
+    margin-top: 12px !important;
+}
+
+.popular-place-city {
+    font-size: 12.5px;
+    color: black;
+    font-weight: 500;
+    margin-top: 8px !important;
+}
+
+.line-popular-place {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    white-space: nowrap;
+    transition: all 0.2s;
+    will-change: transform;
+    user-select: none;
+    cursor: pointer;
+}
+
+.line-popular-place-rest-hotel {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    white-space: nowrap;
+    transition: all 0.2s;
+    will-change: transform;
+    user-select: none;
+    cursor: pointer;
+}
+
+.hotel-rest-evaluation {
+    display: flex;
+    align-items: center;
+    margin-top: 0px !important;
+}
+
+.map-pin-line {
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+    margin-top: 7px;
+}
+
+.popular-hotel-rest-place {
+    font-size: 12.5px;
+    color: black;
+    font-weight: 500;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+
+.evalution {
+    color: rgb(240, 170, 20);
+    font-weight: 700;
+    font-size: 19px;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+
+.one-popular-review {
+    display: flex;
+    justify-content: space-between;
+    width: 49%;
+    height: min-content;
+}
+
+.text-main-review {
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+}
+
+.text-review {
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
+
+.text-about-us {
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+
+.section-button-more-hotel {
+    font-size: 16px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    gap: 4px;
+    width: 105px;
+    height: 44px;
+    background: #f6f4ff;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.section-button-more-about-us {
+    font-size: 16px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    gap: 4px;
+    width: 155px;
+    height: 44px;
+    background: #f6f4ff;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 45px;
+}
+
+.tours-card-content-icons {
+    gap: 3rem;
+}
+
+.right-review-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.h6 {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.tours-card-content-icons h6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 12px;
+    color: #878787;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.about-us-text-main {
+    width: 48%;
+    margin-right: 15px;
+    margin: 0 auto;
+}
+
+.about-us-photo-div {
+    width: 48%;
+    margin-left: 15px;
+}
+
+footer {
+    background: #f9f9f9;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-top: 120px;
+}
+
+.footer-main-class {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.input-type-email {
+    border: 0;
+}
+
+    .input-type-email:focus {
+        outline: none;
+        font-size: 14px;
+    }
+
+.form-section {
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 12px;
+}
+
+/*Профиль пользователя*/
+.headermainprofileimg {
+    background: url('https://get.pxhere.com/photo/landscape-nature-mountain-snow-cloud-sky-sunrise-sunset-night-morning-dawn-peak-mountain-range-panorama-dusk-evening-weather-alpine-darkness-summit-austria-rocks-clouds-mountains-alps-landform-geographical-feature-atmospheric-phenomenon-mountainous-landforms-geological-phenomenon-1046299.jpg')no-repeat center center/cover;
+    min-height: 400px;
+    border-radius: 0 0 50px 50px;
+    padding-top: 50px;
+}
+
+.profilephoto {
+    border-radius: 200px;
+    width: 300px;
+    height: 300px;
+}
+
+.aboutme-maininfo {
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    margin-top: -250px;
+}
+
+.section-button-edit-profile {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 4px;
+    width: 20%;
+    height: 44px;
+    background: #f6f4ff;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.style-for-text-numbers {
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0;
+}
+
+.style-for-text-under-num {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.style-for-text-numbers-all {
+    text-align: center;
+}
+
+.line-route-all {
+    width: 100%;
+    justify-content: left;
+    display: flex;
+}
+
+.route-name-text {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0;
+}
+
+.route-city {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.route-date-create {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.one-route-text-all {
+    margin-left: 20px;
+}
+
+.section-button-more-route {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    gap: 4px;
+    width: 105px;
+    height: 44px;
+    background: #f6f4ff;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.text-footer {
+    font-size: 13px;
+}
+
+/*Авторизация/регистрация/востановление*/
+
+.leftsignin {
+    width: 60%;
+}
+
+.push-main-page {
+    background-color: #050705;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+}
+
+.push-messanger-page {
+    margin: 0 auto;
+    height: min-content;
+    border: 2px solid rgba(36, 36, 36, 0.658);
+    border-radius: 7px;
+    padding: 30px;
+}
+
+.textMAIN-push-page {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.input-push-pass {
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    background-color: rgba(36, 36, 36, 0.658);
+    border: 1px solid rgba(67, 67, 67, 0.658);
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+}
+
+.href-another-password {
+    text-align: center;
+    display: block;
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+    opacity: 0.8;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.href-forget-password {
+    display: block;
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+    opacity: 0.8;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.href-more-info {
+    text-align: center;
+    display: block;
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+
+.textsignin-push-page {
+    color: white;
+    margin-top: 0px;
+    opacity: 0.6;
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.text-under-createacc {
+    color: white;
+    margin-top: 0px;
+    opacity: 0.6;
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.rightsignin {
+    width: 40%;
+    background-color: #050705;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+}
+
+.maintextsign {
+    margin: 0 auto;
+    height: min-content;
+    width: 80%;
+    border: 2px solid rgba(36, 36, 36, 0.658);
+    border-radius: 7px;
+    padding: 40px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+.textMAIN {
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.textsignin {
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.input-text {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(36, 36, 36, 0.658);
+    border: rgba(36, 36, 36, 0.658);
+    color: white;
+    border-radius: 7px;
+}
+
+.inputtt {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(36, 36, 36, 0);
+    border: rgba(36, 36, 36, 0.658);
+    color: white;
+    border-radius: 7px;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-text:focus-within {
+    outline: 2px solid white;
+}
+
+.butt-sigh-in {
+    width: 100%;
+    height: 50px;
+    background-color: #7c61ff;
+    border: rgba#7c61ff;
+    color: white;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.butt-createacc {
+    width: 100%;
+    height: 50px;
+    background-color: #0c730c;
+    border: rgba(36, 36, 36, 0.658);
+    color: white;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.font-size11 {
+    font-size: 11px;
+}
+
+.font-size15 {
+    font-size: 15px;
+}
+
+.margin2 {
+    margin: 2px;
+}
+
+.margin0 {
+    margin: 0px;
+}
+
+.marginright2 {
+    margin-right: 2%;
+}
+
+.marginleft2 {
+    margin-left: 2%;
+}
+
+.margin-top0 {
+    margin-top: 0;
+}
+
+.opacity07 {
+    opacity: 0.7;
+}
+
+.font-weight500 {
+    font-weight: 500;
+}
+
+.justify-contentspace-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Стили для заднего фона */
+.modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Затемненный фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1050; /* Должно быть выше остальных элементов на странице */
+}
+
+/* Стили для модального окна */
+.modal-dialog {
+    background-color: #fff;
+    padding: 2%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 100%; /* Максимальная ширина модального окна */
+    width: 60%;
+    transition: transform 0.3s; /* Плавное появление */
+    transform: scale(0.7);
+    display: flex;
+    flex-direction: column; /* Располагать содержимое вертикально */
+}
+
+    /* Показать модальное окно и контент */
+    .modal-dialog.show .modal-content {
+        transform: scale(1);
+    }
+
+.avatar-add-img-place {
+    border-radius: 5%;
+}
+
+.input-textarea {
+    width: 100%;
+    height: 46px;
+    background-color: white;
+    border: rgba(36, 36, 36, 0.658);
+    color: black;
+    border-radius: 7px;
+    font-size: 16px;
+    outline: none;
+}
+
+option
+{
+    font-size: 16px;
+}
+
+optgroup {
+    font-size: 16px;
+}
+
+#modal {
+    display: none;
+}
+
+#modal p {
+    font-size: 28px;
+}
+
+.input-text-reg {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    border-radius: 7px;
+}
+
+.input-reg {
+    width: 100%;
+    height: 48px;
+    background-color: white;
+    border: rgba(36, 36, 36, 0.658);
+    color: black;
+    border-radius: 7px;
+    font-size: 16px;
+    outline: none;
+}
+
+/*Страница Администратора*/
+.wrap-list {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.ob-block {
+    width: 380px;
+    height: 440px;
+    position: relative;
+    vertical-align: top;
+    border-radius: 16px;
+    overflow: hidden;
+    margin: 0 15px 15px 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.ob-img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 83%;
+    background-position: 50%;
+    display: block;
+    transition: 0.5s;
+}
+
+.ob-block:hover .ob-img {
+    transform: scale(1.1);
+}
+
+.ob-blur {
+    filter: blur(10px);
+    position: absolute;
+    left: 0;
+    width: 120%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: -40px 100%;
+    top: 61%;
+    height: 50%;
+    z-index: 1;
+    opacity: .25;
+}
+
+.ob-grad {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to top, #202030 25%, rgba(32, 32, 48, 0.85) 35%, rgba(32, 32, 48, 0.7) 45%, rgba(32,32,48,0) 70%);
+}
+
+.city-href {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 5px;
+    opacity: .8;
+    padding: 8px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+    color: #000;
+    font-size: 13px;
+}
+
+.ob-href {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    z-index: 1;
+}
+
+.ob-text {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    outline: 0;
+    position: absolute;
+    padding: 0;
+    height: auto;
+    bottom: 10px;
+    max-height: 140px;
+    width: 100%;
+}
+
+.ob-tz {
+    font-size: 30px;
+    line-height: 36px;
+    padding: 0 18px 6px;
+    font-weight: 600;
+    white-space: normal;
+}
+
+.ob-ta {
+    font-size: 15px;
+    line-height: 20px;
+    opacity: 0.8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    white-space: normal;
+    padding: 3px 18px 2px;
+}
+
+.section-button-add-place {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    gap: 4px;
+    width: 115px;
+    height: 44px;
+    background: #f6f4ff;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.headermainadmincab {
+    background-color: black;
+    min-height: 100px;
+    border-radius: 0 0 20px 20px;
+    padding-top: 50px;
+}
+
+.obj-info {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover !important;
+    background-position: 50%;
+    border-radius: 15px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.m-inb {
+    height: 600px;
+    width: 100%;
+    margin: 0;
+    box-shadow: 10px 10px 30px #CCC;
+    position: relative;
+    background-color: #316bff;
+    overflow: visible;
+    border-radius: 15px;
+}
+
+.inpic {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .inpic h1 {
+        font-size: 55px;
+        color: #fff;
+    }
+
+    .inpic .h1block {
+        margin: 0;
+        color: #fff;
+        width: 100%;
+        vertical-align: middle;
+        display: table-cell;
+    }
+
+.h1block {
+    text-align: center;
+}
+
+.where {
+    font-size: 17px;
+    line-height: 16px;
+    color: #fff;
+}
+
+h1 {
+    padding: 0 10px;
+}
+
+.br-s {
+    margin: 0 20px 1px;
+    background: #fff;
+    height: 4px;
+    width: 4px;
+    display: inline-flex;
+    border-radius: 100%;
+    font-size: 0;
+}
+
+.content {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.txt-body {
+    max-width: 1024px;
+    background: #fff;
+    vertical-align: top;
+    margin: 50px auto;
+}
+
+.element-anons {
+    max-width: 1024px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.txt-body p {
+    font-size: 17px;
+    margin: 0 0 30px;
+    line-height: 1.7;
+}

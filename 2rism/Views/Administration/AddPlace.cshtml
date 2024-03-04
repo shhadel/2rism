@@ -1,0 +1,49 @@
+﻿@{
+}
+
+<form>
+    <div style="width: 100%; text-align: center;">
+        <p class="text-main-page" style="text-align: center; margin-bottom: 20px">Добавление достопримечательности</p>
+        <div class="justify-contentspace-between" style="width: 100%;">
+            <div style="display:flex; align-items: center; width: 50%; margin-right: 15px">
+                <img alt="Фотография" id="placephoto" class="avatar-add-img-place" style="width: 100%; margin: 0 auto; background-size:cover" />
+            </div>
+            <div style="width: 50%">
+                <div class="input-text-reg" style="display: flex; margin-top: 10px;">
+                    <img src="/resources/icons-name-black.png" style="padding: 15px">
+                    <input type="text" style="font-size: 22px;" class="input-reg" id="placephotourl" placeholder="Ссылка на фотографию" onchange="updatePlacePhotoInPage()">
+                </div>
+
+                <div class="input-text-reg" style="display: flex; margin-top: 10px;">
+                    <img src="/resources/icons-name-black.png" style="padding: 15px">
+                    <input type="text" class="input-reg" style="font-size: 22px;" id="placename" placeholder="Название достопримечательности">
+                </div>
+
+                <div class="input-text-reg" style="display: flex; margin-top: 10px;">
+                    <img src="/resources/icons-name-black.png" style="padding: 15px">
+                    <textarea class="input-textarea" id="placedesc" style="font-size: 22px;" maxlength="255" placeholder="Описание достопримечательности"></textarea>
+                </div>
+
+                <div class="input-text-reg" style="display: flex; margin-top: 10px;">
+                    <img src="/resources/icons-name-black.png" style="padding: 15px">
+                    <select class="input-reg" id="placecity" style="font-size: 22px;">
+                        <option disabled selected>Выберите город</option>
+                    </select>
+                </div>
+
+                <div class="input-text-reg" style="display: flex; margin-top: 10px;">
+                    <img src="/resources/icons-name-black.png" style="padding: 15px">
+                    <input type="text" class="input-reg" style="font-size: 22px;" id="placestreet" placeholder="Улица">
+                </div>
+
+                <div class="input-text-reg" style="display: flex; margin-top: 10px;">
+                    <img src="/resources/icons-name-black.png" style="padding: 15px">
+                    <input type="number" class="input-reg" style="font-size: 22px;" id="placehouse" placeholder="Дом">
+                </div>
+            </div>
+        </div>
+        <div>
+            <input type="button" class="butt-sigh-in" style="font-size: 25px; margin-top: 15px" onclick="AddPlace(this.form.placephotourl.value, this.form.placename.value, this.form.placedesc.value, this.form.placecity.value, this.form.placestreet.value, this.form.placehouse.value)" style="text-align: center;" value="Добавить" />
+        </div>
+    </div>
+</form>

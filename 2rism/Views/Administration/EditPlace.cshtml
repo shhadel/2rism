@@ -1,0 +1,45 @@
+﻿@{
+}
+
+<form>
+    <div style="width: 40%">
+        <p class="text-main-page">Редактирвание достопримечательности</p>
+        <img alt="Фотография" id="placephoto" class="avatar" style="width: 350px; height: 350px" />
+        
+        <div class="input-text-reg" style="display: flex; margin-top: 10px;">
+            <img src="/resources/icons-name-black.png" style="padding: 15px">
+            <input type="text" class="input-reg" id="placephotourl" placeholder="https://snt-kristall.ru/wp-content/uploads/2019/02/image-portfolio-2.jpg" onchange="updatePlacePhotoInPage()">
+        </div>
+
+        <div class="input-text-reg" style="display: flex; margin-top: 10px;">
+            <img src="/resources/icons-name-black.png" style="padding: 15px">
+            <input type="text" class="input-reg" id="placename" placeholder="Эйфелевая башня">
+        </div>
+
+        <div class="input-text-reg" style="display: flex; margin-top: 10px;">
+            <img src="/resources/icons-name-black.png" style="padding: 15px">
+            <textarea class="input-reg" id="placedesc" maxlength="255" placeholder="Эйфелева башня (фр. tour Eiffel) — металлическая башня в центре Парижа, самая узнаваемая архитектурная достопримечательность города."></textarea>
+        </div>
+
+        <div class="input-text-reg" style="display: flex; margin-top: 10px;">
+            <img src="/resources/icons-name-black.png" style="padding: 15px">
+            <select class="input-reg" id="placecity">
+                <option disabled selected>Выберите город</option>
+            </select>
+        </div>
+
+        <div class="input-text-reg" style="display: flex; margin-top: 10px;">
+            <img src="/resources/icons-name-black.png" style="padding: 15px">
+            <input type="text" class="input-reg" id="placestreet" placeholder="авеню Пьер Лоти">
+        </div>
+
+        <div class="input-text-reg" style="display: flex; margin-top: 10px;">
+            <img src="/resources/icons-name-black.png" style="padding: 15px">
+            <input type="number" class="input-reg" id="placehouse" placeholder="12">
+        </div>
+
+        <div>
+            <input type="button" class="butt-sigh-in" onclick="EditPlace(this.form.placephotourl.value, this.form.placename.value, this.form.placedesc.value, this.form.placecity.value, this.form.placestreet.value, this.form.placehouse.value)" style="text-align: center;" value="Сохранить" />
+        </div>
+    </div>
+</form>

@@ -1,0 +1,36 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/js/script.js"></script>
+    <title>2rism</title>
+</head>
+<body>
+    <div class="push-main-page">
+        <form class="push-messanger-page">
+            <p class="textMAIN-push-page">Введите пароль</p>
+            <p class="textsignin-push-page">Введенный пароль будет использоваться для входа в аккаунт</p>
+            <div class="input-text" style="display: flex; margin-bottom: 15px;">
+                <img src="/resources/Icon-password.png" style="padding: 15px">
+                <input id="password" type="password" class="inputtt" placeholder="Введите пароль">
+            </div>
+            <div class="input-text" style="display: flex;">
+                <img src="/resources/Icon-password.png" style="padding: 15px">
+                <input id="repeatpassword" type="password" class="inputtt" placeholder="Повторно введите пароль">
+            </div>
+            <input type="button" class="butt-sigh-in" value="Создать аккаунт" onclick="RegistrationSecond('@ViewBag.Email', '@ViewBag.Name', '@ViewBag.Surname', this.form.password.value, this.form.repeatpassword.value)" />
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+﻿@{
+}
+
+<form>
+    <div>
+        <select id="placeslistinadd" multiple>
+        </select>
+
+        <input type="button" value="Собрать маршрут" onclick="AssembleRoute(this.form.placeslistinadd)" id="btnassemble" />
+
+        <div id="map" class="mrtop-16" style="width: 100%; height: 600px"></div>
+
+        <div id="afterdisplaymap" style="display: none">
+            <input type="text" id="routename"/>
+            <fieldset id="issaved">
+                <input type="radio" value="true" name="group1">Публичный
+                <input type="radio" value="false" name="group1">Личный
+            </fieldset>
+            <input type="button" value="Сохранить" onclick="SavedRoute(this.form.routename.value, this.form.placeslistinadd)" />
+        </div>
+    </div>
+</form>
